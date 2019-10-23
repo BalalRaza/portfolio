@@ -1,19 +1,9 @@
-const sectionalRadius = 40;
-
 const styles = (theme) => {
   return {
     container: {
-      height: '100vh',
-      backgroundColor: theme.palette.grey[200],
+      backgroundColor: theme.palette.common.white,
       display: 'flex',
       flexDirection: 'column',
-    },
-    other: {
-      borderTopLeftRadius: sectionalRadius,
-      borderTopRightRadius: sectionalRadius,
-      backgroundColor: theme.palette.common.white,
-      flexGrow: 1,
-      padding: 40,
     },
   };
 };

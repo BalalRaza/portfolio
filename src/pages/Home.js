@@ -5,6 +5,7 @@ import { CssBaseline } from '@material-ui/core';
 
 import Profile from '../components/Profile';
 import Skills from '../components/Skills/Skills';
+import Experiences from '../components/Experiences';
 
 import styles from '../assets/jss/pages/Home';
 
@@ -19,6 +20,7 @@ function Home(props) {
 
       <div id="sections">
         <Skills />
+        <Experiences />
       </div>
     </div>
   );
